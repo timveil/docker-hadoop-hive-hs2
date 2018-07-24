@@ -1,2 +1,3 @@
 # docker-hadoop-hive-hs2
-hs2
+
+docker build --no-cache -t timveil/docker-hadoop-hive-hs2:latest .
