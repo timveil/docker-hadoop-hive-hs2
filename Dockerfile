@@ -1,4 +1,4 @@
-FROM timveil/docker-hadoop-hive-base
+FROM timveil/docker-hadoop-hive-base:3.1.x
 
 LABEL maintainer="tjveil@gmail.com"
 
