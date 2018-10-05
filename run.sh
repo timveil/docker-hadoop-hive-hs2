@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "adding tez libs hadoop"
-hadoop fs -mkdir /apps/tez
+hadoop fs -mkdir -p /apps/tez
 hadoop fs -copyFromLocal /tmp/tez-minimal.tar.gz /apps/tez/
 
 echo "starting hiveserver2"
